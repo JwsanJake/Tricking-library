@@ -10,11 +10,11 @@ jobs:
       - name: Pull Code
         uses: actions/checkout@v2
       - name: Print Current Directory
-        uses: pwd
+        run: pwd
       - name: List Filed in Directory
-        uses: ls
+        run: ls
       - name: Check Dotnet CLI
-        uses: dotnet
+        run: dotnet
       - name: Check NPM CLI
-        uses: npm
+        run: npm
         
