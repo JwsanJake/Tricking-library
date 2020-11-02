@@ -13,8 +13,8 @@ jobs:
         run: pwd
       - name: List Filed in Directory
         run: ls
-      - name: Check Dotnet CLI
+      - name: Check Dotnet Cli
         run: dotnet
-      - name: Check NPM CLI
+      - name: Check NPM Cli
         run: npm
         
